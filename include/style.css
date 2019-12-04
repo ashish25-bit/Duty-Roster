@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+}
+.img-con img{
+    width: 60px;
+    margin: 10px;
+}
+.header-con{
+    text-align: center;
+    flex: 3;
+}
+.header-con p{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.container{
+    text-align: center;
+}
+.head,.month-display,.year-display{
+    font-size: 20px;
+}
+.month-display,.year-display{
+    display: none;
+}
+.month,.year{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+::placeholder
+{
+    color:#ccc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.confirm{
+    margin:10px ;
+    padding:5px ;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.mon{
+    width: 90%;
+    margin:0 auto ;
+    text-align: center;
+    display: none;
+    background: #ccc;
+}
+.mon-row{
+    display: flex;
+}
+.mon-val{
+    flex: 1;
+    text-align: center;
+    margin: 10px ;
+    background: black;
+    color: white;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.ok{
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+}
+.head-table-con{
+    margin-top: 10px;
+    height: 65vh;
+    overflow-y: auto;
+}
+.day31-head,.day30-head,.day29-head,.day28-head{
+    width:100%;
+    display: none;
+}
+.input-table-con,.day31,.day30{
+    width:100%;
+    display: none;
+}
+.input-table-con{
+    position: fixed;
+    bottom: 0;
+    margin: 10px 0;
+}
+.clear,.add,.delete,.update{
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.update,.delete{
+    display: none;
+}
+.name{
+    min-width:200px;
+}
+.s-no{
+    width:20px;
+    text-align: center;
+}
+.weekday-row td{
+    text-align: center;
+    font-size: 10px;
+}
+
+.button-con{
+    display: flex;
+}
+.button-con button{
+    flex:1;
+}
+.input-table{
+    width:100%;
+}
+.duty-input,.name-input{
+    width:95%;
+}
+.duty-row,.duty-row-current{
+    text-align: center;
+}
+.duty-row-displayed{
+    cursor: pointer;
+}
+.duty-row-displayed:hover{
+    background:#aaa;
+}
