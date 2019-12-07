@@ -198,7 +198,7 @@ document.querySelector(".clear").addEventListener("click" ,clearStorage);
 
 function clearStorage()
 {
-    if(confirm("All Your Data will be cleared"){
+    if(confirm("All Your Data will be cleared")){
     	document.querySelector(".weekday-row").remove();
     	document.querySelector(".head-input-col").remove();
     	document.querySelector(".duty-row").remove();
