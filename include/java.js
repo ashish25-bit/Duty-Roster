@@ -198,21 +198,23 @@ document.querySelector(".clear").addEventListener("click" ,clearStorage);
 
 function clearStorage()
 {
-    document.querySelector(".weekday-row").remove();
-    document.querySelector(".head-input-col").remove();
-    document.querySelector(".duty-row").remove();
-    localStorage.clear();
-    document.querySelector(".month-display").style.display = "none";
-    document.querySelector(".year-display").style.display = "none";
-    document.querySelector(".input-table-con").style.display = "none";
-    document.querySelector(".year").style.display = "inline";
-    document.querySelector(".month").style.display = "inline";
-    document.querySelector(".confirm").style.display = "inline";
-    document.querySelector(".day31-head").style.display = "none";
-    document.querySelector(".day30-head").style.display = "none";
-    document.querySelector(".day29-head").style.display = "none";
-    document.querySelector(".day28-head").style.display = "none";
-    location.reload();
+    if(confirm("All Your Data will be cleared"){
+    	document.querySelector(".weekday-row").remove();
+    	document.querySelector(".head-input-col").remove();
+    	document.querySelector(".duty-row").remove();
+    	localStorage.clear();
+    	document.querySelector(".month-display").style.display = "none";
+    	document.querySelector(".year-display").style.display = "none";
+    	document.querySelector(".input-table-con").style.display = "none";
+    	document.querySelector(".year").style.display = "inline";
+    	document.querySelector(".month").style.display = "inline";
+    	document.querySelector(".confirm").style.display = "inline";
+    	document.querySelector(".day31-head").style.display = "none";
+    	document.querySelector(".day30-head").style.display = "none";
+    	document.querySelector(".day29-head").style.display = "none";
+    	document.querySelector(".day28-head").style.display = "none";
+    	location.reload();
+    }
 }
 
 // FUNCTION FOR CREATING WEEKDAY ARRAY  
