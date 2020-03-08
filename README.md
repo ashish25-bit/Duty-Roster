@@ -1,4 +1,4 @@
-#Duty Roster
+# DUTY ROSTER
 As the name suggests Duty Roster is made to set the duties of people who works in the hospital.
 In hospitals the people have shifts i.e. either evening shift, morning shift, night shift and many more different.
 It is just like execl sheet but the main thing is the user who is making the duty list just have to enter name and select from the list of different duties.
