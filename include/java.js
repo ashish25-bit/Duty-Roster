@@ -499,6 +499,7 @@ function fun2()
     document.querySelector(".head-table-con").style.overflowY = "auto";
     //document.querySelector(".incharge-sign").style.display = "none";
 }
+
 /* code for the corresponding duty
    '' -> X   
     M -> M
@@ -511,16 +512,3 @@ function fun2()
    ML -> L
    RH -> R
 */
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -102,6 +102,7 @@ body{
 }
 .name{
     min-width:200px;
+    text-align: left;
 }
 .s-no{
     width:20px;
