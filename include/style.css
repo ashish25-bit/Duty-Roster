@@ -101,7 +101,7 @@ body{
     display: none;
 }
 .name{
-    min-width:200px;
+    min-width:130px;
     text-align: left;
 }
 .s-no{
@@ -125,6 +125,9 @@ body{
 .duty-input,.name-input{
     width:95%;
 }
+.duty-row .designation {
+    width: 30px;
+}
 .duty-row,.duty-row-current{
     text-align: center;
 }
@@ -133,4 +136,12 @@ body{
 }
 .duty-row-displayed:hover{
     background:#aaa;
+}
+.day31-head .designation, .day30-head .designation, .day29-head .designation, .day28-head .designation {
+    width: 80px;
+    text-align: left;
+}
+.duty-row-displayed .des {
+    font-size: 13px;
+    text-align: left;
 }
